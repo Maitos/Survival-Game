@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4211BA5E1BE75C3900850092 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4211BA5D1BE75C3900850092 /* Game.swift */; };
+		4211BA601BE75F6100850092 /* CameraControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4211BA5F1BE75F6100850092 /* CameraControls.swift */; };
+		423D4FFC1BE5B6BA0063727F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423D4FFB1BE5B6BA0063727F /* main.m */; };
+		423D4FFF1BE5B6BA0063727F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423D4FFE1BE5B6BA0063727F /* AppDelegate.m */; };
+		423D50021BE5B6BA0063727F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 423D50011BE5B6BA0063727F /* GameScene.m */; };
+		423D50041BE5B6BA0063727F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 423D50031BE5B6BA0063727F /* GameScene.sks */; };
+		423D50071BE5B6BA0063727F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423D50061BE5B6BA0063727F /* GameViewController.m */; };
+		423D500A1BE5B6BA0063727F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423D50081BE5B6BA0063727F /* Main.storyboard */; };
+		423D500C1BE5B6BA0063727F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423D500B1BE5B6BA0063727F /* Assets.xcassets */; };
+		423D500F1BE5B6BA0063727F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423D500D1BE5B6BA0063727F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4211BA5C1BE75C3900850092 /* SurvivalGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurvivalGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		4211BA5D1BE75C3900850092 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4211BA5F1BE75F6100850092 /* CameraControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraControls.swift; sourceTree = "<group>"; };
+		423D4FF71BE5B6BA0063727F /* SurvivalGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurvivalGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D4FFB1BE5B6BA0063727F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		423D4FFD1BE5B6BA0063727F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		423D4FFE1BE5B6BA0063727F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		423D50001BE5B6BA0063727F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		423D50011BE5B6BA0063727F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		423D50031BE5B6BA0063727F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		423D50051BE5B6BA0063727F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		423D50061BE5B6BA0063727F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		423D50091BE5B6BA0063727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423D500B1BE5B6BA0063727F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423D500E1BE5B6BA0063727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423D50101BE5B6BA0063727F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423D4FF41BE5B6BA0063727F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4211BA521BE75A7F00850092 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4211BA531BE75A8F00850092 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4211BA5B1BE75B5900850092 /* Scene */,
+				4211BA541BE75A9A00850092 /* Controls */,
+				4211BA5D1BE75C3900850092 /* Game.swift */,
+				4211BA5C1BE75C3900850092 /* SurvivalGame-Bridging-Header.h */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		4211BA541BE75A9A00850092 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4211BA5F1BE75F6100850092 /* CameraControls.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		4211BA5B1BE75B5900850092 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				423D50031BE5B6BA0063727F /* GameScene.sks */,
+				423D50001BE5B6BA0063727F /* GameScene.h */,
+				423D50011BE5B6BA0063727F /* GameScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		423D4FEE1BE5B6BA0063727F = {
+			isa = PBXGroup;
+			children = (
+				423D4FF91BE5B6BA0063727F /* SurvivalGame */,
+				423D4FF81BE5B6BA0063727F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423D4FF81BE5B6BA0063727F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423D4FF71BE5B6BA0063727F /* SurvivalGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423D4FF91BE5B6BA0063727F /* SurvivalGame */ = {
+			isa = PBXGroup;
+			children = (
+				4211BA531BE75A8F00850092 /* Game */,
+				4211BA521BE75A7F00850092 /* Assets */,
+				423D4FFD1BE5B6BA0063727F /* AppDelegate.h */,
+				423D4FFE1BE5B6BA0063727F /* AppDelegate.m */,
+				423D50051BE5B6BA0063727F /* GameViewController.h */,
+				423D50061BE5B6BA0063727F /* GameViewController.m */,
+				423D50081BE5B6BA0063727F /* Main.storyboard */,
+				423D500B1BE5B6BA0063727F /* Assets.xcassets */,
+				423D500D1BE5B6BA0063727F /* LaunchScreen.storyboard */,
+				423D50101BE5B6BA0063727F /* Info.plist */,
+				423D4FFA1BE5B6BA0063727F /* Supporting Files */,
+			);
+			path = SurvivalGame;
+			sourceTree = "<group>";
+		};
+		423D4FFA1BE5B6BA0063727F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				423D4FFB1BE5B6BA0063727F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423D4FF61BE5B6BA0063727F /* SurvivalGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423D50131BE5B6BA0063727F /* Build configuration list for PBXNativeTarget "SurvivalGame" */;
+			buildPhases = (
+				423D4FF31BE5B6BA0063727F /* Sources */,
+				423D4FF41BE5B6BA0063727F /* Frameworks */,
+				423D4FF51BE5B6BA0063727F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurvivalGame;
+			productName = SurvivalGame;
+			productReference = 423D4FF71BE5B6BA0063727F /* SurvivalGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423D4FEF1BE5B6BA0063727F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MMarshall;
+				TargetAttributes = {
+					423D4FF61BE5B6BA0063727F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 423D4FF21BE5B6BA0063727F /* Build configuration list for PBXProject "SurvivalGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423D4FEE1BE5B6BA0063727F;
+			productRefGroup = 423D4FF81BE5B6BA0063727F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423D4FF61BE5B6BA0063727F /* SurvivalGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423D4FF51BE5B6BA0063727F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423D50041BE5B6BA0063727F /* GameScene.sks in Resources */,
+				423D500F1BE5B6BA0063727F /* LaunchScreen.storyboard in Resources */,
+				423D500C1BE5B6BA0063727F /* Assets.xcassets in Resources */,
+				423D500A1BE5B6BA0063727F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423D4FF31BE5B6BA0063727F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4211BA5E1BE75C3900850092 /* Game.swift in Sources */,
+				423D50071BE5B6BA0063727F /* GameViewController.m in Sources */,
+				423D4FFF1BE5B6BA0063727F /* AppDelegate.m in Sources */,
+				423D50021BE5B6BA0063727F /* GameScene.m in Sources */,
+				4211BA601BE75F6100850092 /* CameraControls.swift in Sources */,
+				423D4FFC1BE5B6BA0063727F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		423D50081BE5B6BA0063727F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423D50091BE5B6BA0063727F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423D500D1BE5B6BA0063727F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423D500E1BE5B6BA0063727F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423D50111BE5B6BA0063727F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		423D50121BE5B6BA0063727F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423D50141BE5B6BA0063727F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SurvivalGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMarshall.SurvivalGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SurvivalGame/SurvivalGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		423D50151BE5B6BA0063727F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SurvivalGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMarshall.SurvivalGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SurvivalGame/SurvivalGame-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423D4FF21BE5B6BA0063727F /* Build configuration list for PBXProject "SurvivalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D50111BE5B6BA0063727F /* Debug */,
+				423D50121BE5B6BA0063727F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423D50131BE5B6BA0063727F /* Build configuration list for PBXNativeTarget "SurvivalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D50141BE5B6BA0063727F /* Debug */,
+				423D50151BE5B6BA0063727F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423D4FEF1BE5B6BA0063727F /* Project object */;
+}
