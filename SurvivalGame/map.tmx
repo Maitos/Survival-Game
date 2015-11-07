@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="roguelikeCity_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="1036">
+  <image source="Spritesheet/roguelikeCity_transparent.png" trans="ff00ff" width="628" height="475"/>
+ </tileset>
+ <tileset firstgid="1037" name="roguelikeSheet_magenta" tilewidth="16" tileheight="16" spacing="1" tilecount="1767">
+  <image source="Spritesheet/roguelikeSheet_magenta.png" trans="ff00ff" width="968" height="526"/>
+  <tile id="718">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="719">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="720">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="721">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="722">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="723">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="724">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="775">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="776">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="777">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="778">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="779">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="780">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="781">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="801">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="832">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="833">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="834">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="835">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="836">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="837">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="838">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="1003">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="1004">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="1005">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="1006">
+   <properties>
+    <property name="solid" value="YES"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2804" name="roguelikeIndoor_magenta" tilewidth="16" tileheight="16" spacing="1" tilecount="468">
+  <image source="Spritesheet/roguelikeIndoor_magenta.png" trans="ff00ff" width="457" height="305"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6DB+7dasMFzKNhLqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq/gG7lV8z
+  </data>
+ </layer>
+ <layer name="buildings" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEOwiAUBdA3lT9Qv1gHf9Hob2gn261phcQBpPGc5A4EBvJuCBEAAAAAAAAAAAAAAAAAAAAAAAAA+3MfIm6ZPIZf3+7/HFLENZN5j7ZKM9dHe/roiz76Upr5MfnjWyv1cZn2zqt4M3V9O1991KWPvnz6I5aZLdcnfVT1nOb7ymRM2zOjPgAAAAAAAAAAAAAAAAAAANiJNyc8KJM=
+  </data>
+ </layer>
+ <layer name="interior" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENACAMBLEU7M7aLAB1PsiWboKrAgAAAAAAAAAAAAAAAAAAAAAAAAB+s9c9eviRxY8sfmTxI8vrh0c9/JjDgyx+AAAAAAAAAAAAAAAAAAAAMNUB830dUw==
+  </data>
+ </layer>
+ <layer name="interior decor 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJgDAUBcF3/2nRVtWKoiUYTzYgBGUG9r4JAAAAAAAAAAAAAAAAAAAAAAAAALxnbck22tvsEwCAf+uVHKOzZp9wW+oJAAAAAAAAAAAAAAAAAAAAgO+7AEb2Bog=
+  </data>
+ </layer>
+ <layer name="interior decor" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJgEAMBdCrrnIYEXQO57BwCwtnFHcxoCMc5IT34JOUIb8UAAAAAAAAAAAAAAAAAAAAAAAAAGjrHLIvYIkOpsgc2SPjt5Pj8PuurProyqYPABq66zuvmnsHAAAAAAAAAAAAAAAAAAAA8H8PQNUFdQ==
+  </data>
+ </layer>
+ <layer name="foilage" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEJgDAMBdCc7DTqRq7lMOpuesyhlyK0gu9BIMdPEkgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPzDNo1OQLbbx2v5po+nPyt1mXM3+abnErFUai3j8tHGz/gWPwMAAAAAAAAAAAAAAAAA6O0GD5cJxQ==
+  </data>
+ </layer>
+</map>

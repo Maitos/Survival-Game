@@ -17,6 +17,8 @@
 		423D500A1BE5B6BA0063727F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423D50081BE5B6BA0063727F /* Main.storyboard */; };
 		423D500C1BE5B6BA0063727F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423D500B1BE5B6BA0063727F /* Assets.xcassets */; };
 		423D500F1BE5B6BA0063727F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423D500D1BE5B6BA0063727F /* LaunchScreen.storyboard */; };
+		4E8C45691BEEC32B003399F0 /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C45671BEEC32B003399F0 /* map.tmx */; };
+		4E8C456A1BEEC32B003399F0 /* Spritesheet in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C45681BEEC32B003399F0 /* Spritesheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		423D500B1BE5B6BA0063727F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		423D500E1BE5B6BA0063727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		423D50101BE5B6BA0063727F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8C45671BEEC32B003399F0 /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map.tmx; sourceTree = "<group>"; };
+		4E8C45681BEEC32B003399F0 /* Spritesheet */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Spritesheet; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		4211BA521BE75A7F00850092 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				4E8C45671BEEC32B003399F0 /* map.tmx */,
+				4E8C45681BEEC32B003399F0 /* Spritesheet */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 		423D4FF91BE5B6BA0063727F /* SurvivalGame */ = {
 			isa = PBXGroup;
 			children = (
+				4E8C456B1BEEC3F1003399F0 /* Includes */,
 				4211BA531BE75A8F00850092 /* Game */,
 				4211BA521BE75A7F00850092 /* Assets */,
 				423D4FFD1BE5B6BA0063727F /* AppDelegate.h */,
@@ -125,6 +132,13 @@
 				423D4FFB1BE5B6BA0063727F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8C456B1BEEC3F1003399F0 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Includes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +201,8 @@
 				423D50041BE5B6BA0063727F /* GameScene.sks in Resources */,
 				423D500F1BE5B6BA0063727F /* LaunchScreen.storyboard in Resources */,
 				423D500C1BE5B6BA0063727F /* Assets.xcassets in Resources */,
+				4E8C456A1BEEC32B003399F0 /* Spritesheet in Resources */,
+				4E8C45691BEEC32B003399F0 /* map.tmx in Resources */,
 				423D500A1BE5B6BA0063727F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
